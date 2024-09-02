@@ -1,0 +1,93 @@
+# REPLACE_WITH_YOUR_PROJECT_NAME
+
+## 📘 About
+
+REPLACE_WITH_YOUR_PROJECT_NAME is ...
+
+## 📝 Table of Contents
+
+- [REPLACE\_WITH\_YOUR\_PROJECT\_NAME](#replace_with_your_project_name)
+  - [📘 About](#-about)
+  - [📝 Table of Contents](#-table-of-contents)
+  - [📦 Built With](#-built-with)
+  - [⚒ Structure](#-structure)
+  - [📋 Features](#-features)
+  - [📄 Documents](#-documents)
+  - [📝 Versions](#-versions)
+    - [v0.1.0 - `YYYY-MM-DD`](#v010---yyyy-mm-dd)
+    - [Version History](#version-history)
+  - [⚙ Get Started](#-get-started)
+
+## 📦 Built With
+
+- [x] React
+- [x] Vite with Vitest
+- [x] TailwindCSS
+- [x] Jotai
+- [x] Containerized with Docker (`nginx-alpine` image)
+
+## ⚒ Structure
+
+```mermaid
+  graph LR;
+    Requester-->REPLACE_WITH_YOUR_PROJECT_NAME
+    REPLACE_WITH_YOUR_PROJECT_NAME-->REPLACE_WITH_YOUR_APP_API
+```
+
+## 📋 Features
+
+- `/` Home Page
+- `/auth` Authentication Page
+- `/about` About Page
+- `/not_found` General 404 Page
+
+## 📄 Documents
+
+[./docs/README.md](./docs/README.md)
+
+## 📝 Versions
+
+### v0.1.0 - `YYYY-MM-DD`
+
+- Initialized
+
+### Version History
+
+... [more](./CHANGELOG.md)
+
+## ⚙ Get Started
+
+1. Initialized
+
+    ```bash
+    git clone REPLACE_WITH_YOUR_APP_GIT_LINK
+    ```
+
+2. Go to project folder
+
+    ```bash
+    cd REPLACE_WITH_YOUR_PROJECT_NAME
+    ```
+
+3. (Optional) Rename `.env.local.example` to `.env.local` with contents from Wiki / Snippet
+
+4. Set up environment by command
+
+    ```bash
+    yarn
+    ```
+
+5. Run project by command
+
+    ```bash
+    # Start dev server
+    yarn dev
+
+    # Build for production
+    yarn build
+
+    # Locally preview the production build
+    yarn preview
+    ```
+
+🌈 Vite Template `buildingwatsize/vite-react-tailwind-jotai` – Made with ❤️ by Watsize 🌈

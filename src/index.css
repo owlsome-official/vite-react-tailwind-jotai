@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "IBM Plex Sans Thai";
+    font-style: normal;
+    font-weight: normal;
+    src: local(""),
+      url("assets/fonts/ibm-plex-sans-thai-regular.woff2") format("woff2"),
+      url("assets/fonts/ibm-plex-sans-thai-regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "IBM Plex Sans Thai";
+    font-style: normal;
+    font-weight: bold;
+    src: local(""),
+      url("assets/fonts/ibm-plex-sans-thai-bold.woff2") format("woff2"),
+      url("assets/fonts/ibm-plex-sans-thai-bold.woff") format("woff");
+  }
+}
+
+* {
+  font-family: "IBM Plex Sans Thai", system-ui, sans-serif !important;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+:root {
+  margin: 0;
+  padding: 0;
+
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  min-width: 320px;
+  min-height: 100vh;
+
+  overflow-wrap: break-word;
+}
