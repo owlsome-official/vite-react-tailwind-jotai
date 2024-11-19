@@ -11,6 +11,7 @@ The Vite template with react plugin and tools for scaffolding your project.
   - [📝 Table of Contents](#-table-of-contents)
   - [📦 Template contains](#-template-contains)
   - [📝 Versions (Last 2 Minor Version)](#-versions-last-2-minor-version)
+    - [\[v0.1.1\] - `2024-11-19`](#v011---2024-11-19)
     - [v0.1.0 - `2024-09-02`](#v010---2024-09-02)
     - [Version History](#version-history)
   - [📌 Get Started](#-get-started)
@@ -27,6 +28,10 @@ The Vite template with react plugin and tools for scaffolding your project.
 - [x] Containerized with Docker (`nginx-alpine` image)
 
 ## 📝 Versions (Last 2 Minor Version)
+
+### [v0.1.1] - `2024-11-19`
+
+- Updated dependencies
 
 ### v0.1.0 - `2024-09-02`
 
