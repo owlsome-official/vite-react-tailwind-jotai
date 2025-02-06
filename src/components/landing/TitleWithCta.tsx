@@ -17,7 +17,7 @@ const TitleWithCta = ({
 }: Props) => {
   return (
     <div className="mx-auto flex max-w-2xl flex-col items-center justify-center p-4">
-      <h1 className="relative z-10 bg-gradient-to-b from-teal-300 to-violet-600 bg-clip-text text-center font-sans text-lg font-bold text-transparent md:text-7xl">
+      <h1 className="relative z-10 bg-linear-to-b from-teal-300 to-violet-600 bg-clip-text text-center font-sans text-lg font-bold text-transparent md:text-7xl">
         Hello from the other side.
       </h1>
       <p className="relative z-10 mx-auto my-2 max-w-lg text-sm text-gray-500">

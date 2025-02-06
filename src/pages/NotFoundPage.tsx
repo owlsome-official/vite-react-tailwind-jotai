@@ -24,7 +24,7 @@ const Section = () => {
 
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center">
-          <h2 className="mb-6 bg-gradient-to-r from-teal-300 to-violet-600 bg-clip-text px-4 text-[100px] font-bold leading-none text-transparent md:text-[160px]">
+          <h2 className="mb-6 bg-linear-to-r from-teal-300 to-violet-600 bg-clip-text px-4 text-[100px] font-bold leading-none text-transparent md:text-[160px]">
             404
           </h2>
           <p className="text-3xl leading-none text-gray-900 opacity-80 md:text-5xl">
@@ -39,7 +39,7 @@ const Section = () => {
 const TopLeftSvg = () => {
   return (
     <svg
-      className="absolute left-0 top-0 -z-[1]"
+      className="absolute left-0 top-0 -z-1"
       width="280"
       height="381"
       viewBox="0 0 280 381"
@@ -63,7 +63,7 @@ const TopLeftSvg = () => {
 const TopRightSvg = () => {
   return (
     <svg
-      className="absolute right-0 top-0 -z-[1] hidden sm:block"
+      className="absolute right-0 top-0 -z-1 hidden sm:block"
       width="852"
       height="656"
       viewBox="0 0 852 656"
