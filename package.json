@@ -19,7 +19,7 @@
     "jotai": "^2.11.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-loading-randomizable": "^1.0.6",
+    "react-loading-randomizable": "^1.1.0",
     "react-router-dom": "^7.1.5",
     "tailwind-merge": "^3.0.1"
   },

@@ -36,7 +36,7 @@ const SignIn = () => {
 
   if (isAuthenticated) {
     return (
-      <div className="mx-auto w-full max-w-md rounded-[22px] bg-white p-4 shadow-lg ring-2 md:p-8">
+      <div className="mx-auto w-full max-w-md rounded-[22px] bg-white p-4 ring-2 shadow-lg md:p-8">
         <div className="text-2xl font-bold">
           Welcome back, <FlipWords words={[userFullname]} duration={1000} />.
         </div>
@@ -47,7 +47,7 @@ const SignIn = () => {
     );
   }
   return (
-    <div className="mx-auto w-full max-w-md rounded-[22px] bg-white p-4 shadow-lg ring-2 md:p-8">
+    <div className="mx-auto w-full max-w-md rounded-[22px] bg-white p-4 ring-2 shadow-lg md:p-8">
       <OverlayLoading active={loading} />
       <h2 className="text-xl font-bold text-neutral-800">Sign In</h2>
       <p className="mt-2 max-w-sm text-sm text-neutral-600">
