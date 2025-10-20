@@ -12,7 +12,7 @@ const AboutPage = () => {
           </div>
           <div className="text-small flex items-center">
             <a
-              href="https://www.pantone.com/color-of-the-year/2024"
+              href="https://www.pantone.com/color-of-the-year/2025"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-1 hover:underline"
