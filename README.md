@@ -10,11 +10,7 @@ The Vite template with react plugin and tools for scaffolding your project.
   - [📘 About](#-about)
   - [📝 Table of Contents](#-table-of-contents)
   - [📦 Template contains](#-template-contains)
-  - [📝 Versions (Last 2 Minor Version)](#-versions-last-2-minor-version)
-    - [v0.2.0 - `2025-02-06`](#v020---2025-02-06)
-    - [v0.1.1 - `2024-11-19`](#v011---2024-11-19)
-    - [v0.1.0 - `2024-09-02`](#v010---2024-09-02)
-    - [Version History](#version-history)
+  - [📝 Versions](#-versions)
   - [📌 Get Started](#-get-started)
     - [Want some more ?](#want-some-more-)
 
@@ -28,25 +24,7 @@ The Vite template with react plugin and tools for scaffolding your project.
 - [x] Jotai 2.x
 - [x] Containerized with Docker (`nginx-alpine` image)
 
-## 📝 Versions (Last 2 Minor Version)
-
-### v0.2.0 - `2025-02-06`
-
-- Updated dependencies
-- Updated tailwindCSS v4
-- Updated React 19
-- Audit Fixed
-
-### v0.1.1 - `2024-11-19`
-
-- Updated dependencies
-
-### v0.1.0 - `2024-09-02`
-
-- Initialized code structure with [Pantone Color of the year 2024](https://www.pantone.com/color-of-the-year/2024)
-- Most UI demo from [Aceternity UI](https://ui.aceternity.com/components)
-
-### Version History
+## 📝 Versions
 
 ... [more](./CHANGELOG.md)
 

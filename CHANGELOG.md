@@ -2,6 +2,25 @@
 
 ## Version History
 
+### [v0.3.0] - `2025-10-20`
+
+✨ Big changes for dependencies ✨
+
+#### Updated
+
+- vite for TypeScript + SWC with rolldown
+- tailwindcss
+
+#### Removed
+
+- axios
+- dayjs
+- framer-motion
+- react-loading-randomizable
+- postcss
+
+[v0.3.0]: https://github.com/owlsome-official/vite-react-tailwind-jotai/releases/tag/v0.3.0
+
 ### [v0.2.0] - `2025-02-06`
 
 - Updated dependencies
