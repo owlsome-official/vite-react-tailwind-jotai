@@ -1,4 +1,4 @@
-FROM nginx:1.26.2-alpine3.20
+FROM nginx:1.29.2-alpine3.22
 RUN rm -rf /usr/share/nginx/html/*
 COPY nginx/default.conf /etc/nginx/conf.d/
 WORKDIR /usr/share/nginx/html

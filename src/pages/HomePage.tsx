@@ -1,21 +1,15 @@
-import { useNavigate } from "react-router-dom";
-
-import VersionCapsule from "@/components/landing/VersionCapsule";
-import MainLayout from "@/layouts/MainLayout";
-import TitleWithCta from "components/landing/TitleWithCta";
+import { useNavigate } from "react-router";
 
 const HomePage = () => {
   const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/about");
+  };
   return (
-    <MainLayout>
-      <VersionCapsule />
-      <TitleWithCta
-        primaryButtonLabel="Get started"
-        onClickPrimaryButton={() => navigate("/about")}
-        secondaryButtonLabel="Example Component"
-        onClickSecondaryButton={() => navigate("/auth")}
-      />
-    </MainLayout>
+    <div className="flex flex-col items-center justify-center gap-6">
+      <div className="text-2xl font-bold">HomePage</div>
+      <button onClick={handleClick}>Check me first!</button>
+    </div>
   );
 };
 

@@ -1,11 +1,9 @@
-import BackgroundBeams from "@/components/ui/BackgroundBeams";
-import { PropsWithChildren } from "react";
+import { Outlet } from "react-router";
 
-const MainLayout = ({ children }: PropsWithChildren) => {
+const MainLayout = () => {
   return (
-    <main className="flex min-h-screen w-full items-center justify-center">
-      <BackgroundBeams />
-      <div className="z-10">{children}</div>
+    <main className="flex min-h-screen items-center justify-center px-4">
+      <Outlet />
     </main>
   );
 };
