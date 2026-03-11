@@ -2,6 +2,29 @@
 
 ## Version History
 
+### [v0.4.0] - `2026-03-10`
+
+#### Updated
+
+- Upgraded `vitest` to v4 (major) and added `@vitest/coverage-v8`
+- Upgraded `jsdom` to v28 (major)
+- Migrated `eslint` to v10 (major) -- [migration guide](https://eslint.org/docs/latest/use/migrate-to-10.0.0)
+- Migrated `@eslint/js` to v10
+- Updated `eslint-plugin-react-hooks` to canary with ESLint 10 support
+- Upgraded `react`, `react-dom` to 19.2.x
+- Upgraded `react-router` to 7.13.x
+- Upgraded `tailwindcss`, `@tailwindcss/vite` to 4.2.x
+- Upgraded `@vitejs/plugin-react` to v5.1.x
+- Upgraded `rolldown-vite` to 7.3.x
+- Updated [Pantone Color of the Year 2026](https://www.pantone.com/color-of-the-year/2026) - Cloud Dancer
+
+#### Added
+
+- `@vitest/coverage-v8` for test coverage support
+- Added `coverage` to eslint global ignores
+
+[v0.4.0]: https://github.com/owlsome-official/vite-react-tailwind-jotai/releases/tag/v0.4.0
+
 ### [v0.3.0] - `2025-10-20`
 
 ✨ Big changes for dependencies ✨

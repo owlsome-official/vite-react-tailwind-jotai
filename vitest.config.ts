@@ -5,7 +5,7 @@ export default defineConfig({
     css: false,
     globals: true,
     environment: "jsdom",
-    setupFiles: "./src/utils/test/setup.js",
+    // setupFiles: "./src/utils/test/setup.ts",
     coverage: {
       reporter: ["text", "lcov"],
       include: ["src/**"],
