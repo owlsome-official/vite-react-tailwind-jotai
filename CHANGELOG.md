@@ -2,6 +2,20 @@
 
 ## Version History
 
+### [v0.4.1] - `2026-07-14`
+
+#### Updated
+
+- Upgraded `vite` to v8 (major) -- removed `rolldown-vite` alias
+- Upgraded `@vitejs/plugin-react` to v6 (major)
+- Upgraded `react-router` to v8 (major)
+- Upgraded `typescript` to v6 (major)
+- Upgraded `jsdom` to v29 (major)
+- Removed deprecated `baseUrl` from `tsconfig.app.json` (TS 6 migration)
+- Updated dependencies
+
+[v0.4.1]: https://github.com/owlsome-official/vite-react-tailwind-jotai/releases/tag/v0.4.1
+
 ### [v0.4.0] - `2026-03-10`
 
 #### Updated
