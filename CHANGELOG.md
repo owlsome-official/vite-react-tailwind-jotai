@@ -2,6 +2,23 @@
 
 ## Version History
 
+### [v0.4.2] - `2026-10-06`
+
+#### Updated
+
+- Upgraded `jotai` to v3 (major)
+- Upgraded `vitest` to v5 (major)
+- Upgraded `@vitest/coverage-v8` to v5 (major)
+- Upgraded `jsdom` to v30 (major)
+- Upgraded `react`, `react-dom` to 19.3.x
+- Upgraded `react-router` to 8.4.x
+- Migrated `__dirname` to `import.meta.dirname` in vite config
+- Added `passWithNoTests` to vitest config for Vitest 5 compatibility
+- Added `react` plugin to `vitest.config.ts` for coverage JSX support
+- Updated dependencies
+
+[v0.4.2]: https://github.com/owlsome-official/vite-react-tailwind-jotai/releases/tag/v0.4.2
+
 ### [v0.4.1] - `2026-07-14`
 
 #### Updated

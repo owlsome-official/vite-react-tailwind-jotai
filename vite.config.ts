@@ -8,13 +8,13 @@ import { defineConfig } from "vite";
 export default defineConfig({
   resolve: {
     alias: {
-      "@": resolve(__dirname, "./src"),
-      apis: resolve(__dirname, "./src/apis"),
-      assets: resolve(__dirname, "./src/assets"),
-      components: resolve(__dirname, "./src/components"),
-      layouts: resolve(__dirname, "./src/layouts"),
-      pages: resolve(__dirname, "./src/pages"),
-      utils: resolve(__dirname, "./src/utils"),
+      "@": resolve(import.meta.dirname, "./src"),
+      apis: resolve(import.meta.dirname, "./src/apis"),
+      assets: resolve(import.meta.dirname, "./src/assets"),
+      components: resolve(import.meta.dirname, "./src/components"),
+      layouts: resolve(import.meta.dirname, "./src/layouts"),
+      pages: resolve(import.meta.dirname, "./src/pages"),
+      utils: resolve(import.meta.dirname, "./src/utils"),
     },
   },
   plugins: [react(), tailwindcss()],
@@ -26,6 +26,17 @@ export default defineConfig({
         secure: false,
         // rewrite: (path) => path.replace(/^\/api/, ""),
       },
+    },
+  },
+  test: {
+    css: false,
+    globals: true,
+    environment: "jsdom",
+    passWithNoTests: true,
+    // setupFiles: "./src/utils/test/setup.ts",
+    coverage: {
+      reporter: ["text", "lcov"],
+      include: ["src/**"],
     },
   },
 });
